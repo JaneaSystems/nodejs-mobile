@@ -19,7 +19,15 @@ Pod::Spec.new do |s|
   s.source = { git: 'https://github.com/janeasystems/nodejs-mobile.git',
                tag: "nodejs-mobile-v#{s.version}" }
 
-  s.vendored_frameworks = 'out_ios/Release-universal/NodeMobile.framework'
+  s.default_subspec = 'Framework'
+
+  s.subspec 'Framework' do |fwspec|
+    fwspec.vendored_frameworks = 'out_ios/Release-universal/NodeMobile.framework'
+  end
+
+  s.subspec 'XCFramework' do |xcfwspec|
+    xcfwspec.vendored_frameworks = 'out_ios/NodeMobile.xcframework'
+  end
 
   s.prepare_command = <<-CMD.strip_heredoc
   tools/ios_framework_prepare.sh
