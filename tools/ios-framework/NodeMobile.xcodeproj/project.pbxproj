@@ -3,30 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33300EB5240437620019E302 /* libv8_libsampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAA240437620019E302 /* libv8_libsampler.a */; };
-		33300EB6240437620019E302 /* libhistogram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAB240437620019E302 /* libhistogram.a */; };
-		33300EB7240437620019E302 /* libllhttp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAC240437620019E302 /* libllhttp.a */; };
-		33300EB8240437620019E302 /* libv8_initializers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAD240437620019E302 /* libv8_initializers.a */; };
-		33300EB9240437620019E302 /* libv8_libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAE240437620019E302 /* libv8_libplatform.a */; };
-		33300EBA240437620019E302 /* libbrotli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EAF240437620019E302 /* libbrotli.a */; };
-		33300EBB240437620019E302 /* libuvwasi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EB0240437620019E302 /* libuvwasi.a */; };
-		33300EBC240437620019E302 /* libv8_libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EB1240437620019E302 /* libv8_libbase.a */; };
-		33300EBE240437620019E302 /* libv8_base_without_compiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EB3240437620019E302 /* libv8_base_without_compiler.a */; };
-		33300EC2240437AB0019E302 /* libv8_compiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EC0240437AB0019E302 /* libv8_compiler.a */; };
-		33300EC3240437AB0019E302 /* libv8_snapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33300EC1240437AB0019E302 /* libv8_snapshot.a */; };
 		3C02AFD41FA919C30053C191 /* NodeMobile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C02AFD31FA919C30053C191 /* NodeMobile.cpp */; };
+		4C6C929626EEE9AD00A596BC /* nghttp2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928426EEE9AD00A596BC /* nghttp2.xcframework */; };
+		4C6C929726EEE9AD00A596BC /* v8_libsampler.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928526EEE9AD00A596BC /* v8_libsampler.xcframework */; };
+		4C6C929826EEE9AD00A596BC /* histogram.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928626EEE9AD00A596BC /* histogram.xcframework */; };
+		4C6C929926EEE9AD00A596BC /* v8_libplatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928726EEE9AD00A596BC /* v8_libplatform.xcframework */; };
+		4C6C929A26EEE9AD00A596BC /* v8_snapshot.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928826EEE9AD00A596BC /* v8_snapshot.xcframework */; };
+		4C6C929B26EEE9AD00A596BC /* v8_initializers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928926EEE9AD00A596BC /* v8_initializers.xcframework */; };
+		4C6C929C26EEE9AD00A596BC /* uvwasi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928A26EEE9AD00A596BC /* uvwasi.xcframework */; };
+		4C6C929D26EEE9AD00A596BC /* http_parser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928B26EEE9AD00A596BC /* http_parser.xcframework */; };
+		4C6C929E26EEE9AD00A596BC /* v8_base_without_compiler.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928C26EEE9AD00A596BC /* v8_base_without_compiler.xcframework */; };
+		4C6C929F26EEE9AD00A596BC /* openssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928D26EEE9AD00A596BC /* openssl.xcframework */; };
+		4C6C92A026EEE9AD00A596BC /* cares.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928E26EEE9AD00A596BC /* cares.xcframework */; };
+		4C6C92A126EEE9AD00A596BC /* zlib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C928F26EEE9AD00A596BC /* zlib.xcframework */; };
+		4C6C92A226EEE9AD00A596BC /* llhttp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929026EEE9AD00A596BC /* llhttp.xcframework */; };
+		4C6C92A326EEE9AD00A596BC /* brotli.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929126EEE9AD00A596BC /* brotli.xcframework */; };
+		4C6C92A426EEE9AD00A596BC /* v8_compiler.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929226EEE9AD00A596BC /* v8_compiler.xcframework */; };
+		4C6C92A526EEE9AD00A596BC /* node.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929326EEE9AD00A596BC /* node.xcframework */; };
+		4C6C92A626EEE9AD00A596BC /* uv.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929426EEE9AD00A596BC /* uv.xcframework */; };
+		4C6C92A726EEE9AD00A596BC /* v8_libbase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C929526EEE9AD00A596BC /* v8_libbase.xcframework */; };
 		D9A7619D1F7C63A8006AFE86 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331917C21EC4702A00F93D52 /* CoreFoundation.framework */; };
-		D9A7619E1F7C63A8006AFE86 /* libcares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C9191EC3922F0007AD59 /* libcares.a */; };
-		D9A761A11F7C63A8006AFE86 /* libhttp_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C91C1EC3922F0007AD59 /* libhttp_parser.a */; };
-		D9A761A21F7C63A8006AFE86 /* libnghttp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334822141F6AFBD200CF403E /* libnghttp2.a */; };
-		D9A761A31F7C63A8006AFE86 /* libnode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C91D1EC3922F0007AD59 /* libnode.a */; };
-		D9A761A41F7C63A8006AFE86 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C91E1EC3922F0007AD59 /* libopenssl.a */; };
-		D9A761A51F7C63A8006AFE86 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C91F1EC3922F0007AD59 /* libuv.a */; };
-		D9A761A61F7C63A8006AFE86 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3376C9201EC3922F0007AD59 /* libzlib.a */; };
 		D9A762281F7C675E006097B1 /* NodeMobile.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A762261F7C674F006097B1 /* NodeMobile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -55,6 +55,24 @@
 		3376C91F1EC3922F0007AD59 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = bin/libuv.a; sourceTree = "<group>"; };
 		3376C9201EC3922F0007AD59 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = bin/libzlib.a; sourceTree = "<group>"; };
 		3C02AFD31FA919C30053C191 /* NodeMobile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NodeMobile.cpp; sourceTree = "<group>"; };
+		4C6C928426EEE9AD00A596BC /* nghttp2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nghttp2.xcframework; path = bin/nghttp2.xcframework; sourceTree = "<group>"; };
+		4C6C928526EEE9AD00A596BC /* v8_libsampler.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_libsampler.xcframework; path = bin/v8_libsampler.xcframework; sourceTree = "<group>"; };
+		4C6C928626EEE9AD00A596BC /* histogram.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = histogram.xcframework; path = bin/histogram.xcframework; sourceTree = "<group>"; };
+		4C6C928726EEE9AD00A596BC /* v8_libplatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_libplatform.xcframework; path = bin/v8_libplatform.xcframework; sourceTree = "<group>"; };
+		4C6C928826EEE9AD00A596BC /* v8_snapshot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_snapshot.xcframework; path = bin/v8_snapshot.xcframework; sourceTree = "<group>"; };
+		4C6C928926EEE9AD00A596BC /* v8_initializers.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_initializers.xcframework; path = bin/v8_initializers.xcframework; sourceTree = "<group>"; };
+		4C6C928A26EEE9AD00A596BC /* uvwasi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = uvwasi.xcframework; path = bin/uvwasi.xcframework; sourceTree = "<group>"; };
+		4C6C928B26EEE9AD00A596BC /* http_parser.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = http_parser.xcframework; path = bin/http_parser.xcframework; sourceTree = "<group>"; };
+		4C6C928C26EEE9AD00A596BC /* v8_base_without_compiler.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_base_without_compiler.xcframework; path = bin/v8_base_without_compiler.xcframework; sourceTree = "<group>"; };
+		4C6C928D26EEE9AD00A596BC /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = openssl.xcframework; path = bin/openssl.xcframework; sourceTree = "<group>"; };
+		4C6C928E26EEE9AD00A596BC /* cares.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cares.xcframework; path = bin/cares.xcframework; sourceTree = "<group>"; };
+		4C6C928F26EEE9AD00A596BC /* zlib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = zlib.xcframework; path = bin/zlib.xcframework; sourceTree = "<group>"; };
+		4C6C929026EEE9AD00A596BC /* llhttp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = llhttp.xcframework; path = bin/llhttp.xcframework; sourceTree = "<group>"; };
+		4C6C929126EEE9AD00A596BC /* brotli.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = brotli.xcframework; path = bin/brotli.xcframework; sourceTree = "<group>"; };
+		4C6C929226EEE9AD00A596BC /* v8_compiler.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_compiler.xcframework; path = bin/v8_compiler.xcframework; sourceTree = "<group>"; };
+		4C6C929326EEE9AD00A596BC /* node.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = node.xcframework; path = bin/node.xcframework; sourceTree = "<group>"; };
+		4C6C929426EEE9AD00A596BC /* uv.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = uv.xcframework; path = bin/uv.xcframework; sourceTree = "<group>"; };
+		4C6C929526EEE9AD00A596BC /* v8_libbase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = v8_libbase.xcframework; path = bin/v8_libbase.xcframework; sourceTree = "<group>"; };
 		D9A761AE1F7C63A8006AFE86 /* NodeMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NodeMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A762251F7C674F006097B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A762261F7C674F006097B1 /* NodeMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeMobile.h; sourceTree = "<group>"; };
@@ -65,25 +83,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33300EC2240437AB0019E302 /* libv8_compiler.a in Frameworks */,
-				33300EC3240437AB0019E302 /* libv8_snapshot.a in Frameworks */,
-				33300EB5240437620019E302 /* libv8_libsampler.a in Frameworks */,
-				33300EB6240437620019E302 /* libhistogram.a in Frameworks */,
-				33300EB7240437620019E302 /* libllhttp.a in Frameworks */,
-				33300EB8240437620019E302 /* libv8_initializers.a in Frameworks */,
-				33300EB9240437620019E302 /* libv8_libplatform.a in Frameworks */,
-				33300EBA240437620019E302 /* libbrotli.a in Frameworks */,
-				33300EBB240437620019E302 /* libuvwasi.a in Frameworks */,
-				33300EBC240437620019E302 /* libv8_libbase.a in Frameworks */,
-				33300EBE240437620019E302 /* libv8_base_without_compiler.a in Frameworks */,
 				D9A7619D1F7C63A8006AFE86 /* CoreFoundation.framework in Frameworks */,
-				D9A7619E1F7C63A8006AFE86 /* libcares.a in Frameworks */,
-				D9A761A11F7C63A8006AFE86 /* libhttp_parser.a in Frameworks */,
-				D9A761A21F7C63A8006AFE86 /* libnghttp2.a in Frameworks */,
-				D9A761A31F7C63A8006AFE86 /* libnode.a in Frameworks */,
-				D9A761A41F7C63A8006AFE86 /* libopenssl.a in Frameworks */,
-				D9A761A51F7C63A8006AFE86 /* libuv.a in Frameworks */,
-				D9A761A61F7C63A8006AFE86 /* libzlib.a in Frameworks */,
+				4C6C929626EEE9AD00A596BC /* nghttp2.xcframework in Frameworks */,
+				4C6C929726EEE9AD00A596BC /* v8_libsampler.xcframework in Frameworks */,
+				4C6C929826EEE9AD00A596BC /* histogram.xcframework in Frameworks */,
+				4C6C929926EEE9AD00A596BC /* v8_libplatform.xcframework in Frameworks */,
+				4C6C929A26EEE9AD00A596BC /* v8_snapshot.xcframework in Frameworks */,
+				4C6C929B26EEE9AD00A596BC /* v8_initializers.xcframework in Frameworks */,
+				4C6C929C26EEE9AD00A596BC /* uvwasi.xcframework in Frameworks */,
+				4C6C929D26EEE9AD00A596BC /* http_parser.xcframework in Frameworks */,
+				4C6C929E26EEE9AD00A596BC /* v8_base_without_compiler.xcframework in Frameworks */,
+				4C6C929F26EEE9AD00A596BC /* openssl.xcframework in Frameworks */,
+				4C6C92A026EEE9AD00A596BC /* cares.xcframework in Frameworks */,
+				4C6C92A126EEE9AD00A596BC /* zlib.xcframework in Frameworks */,
+				4C6C92A226EEE9AD00A596BC /* llhttp.xcframework in Frameworks */,
+				4C6C92A326EEE9AD00A596BC /* brotli.xcframework in Frameworks */,
+				4C6C92A426EEE9AD00A596BC /* v8_compiler.xcframework in Frameworks */,
+				4C6C92A526EEE9AD00A596BC /* node.xcframework in Frameworks */,
+				4C6C92A626EEE9AD00A596BC /* uv.xcframework in Frameworks */,
+				4C6C92A726EEE9AD00A596BC /* v8_libbase.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +128,24 @@
 		3376C9181EC3922E0007AD59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C6C929126EEE9AD00A596BC /* brotli.xcframework */,
+				4C6C928E26EEE9AD00A596BC /* cares.xcframework */,
+				4C6C928626EEE9AD00A596BC /* histogram.xcframework */,
+				4C6C928B26EEE9AD00A596BC /* http_parser.xcframework */,
+				4C6C929026EEE9AD00A596BC /* llhttp.xcframework */,
+				4C6C928426EEE9AD00A596BC /* nghttp2.xcframework */,
+				4C6C929326EEE9AD00A596BC /* node.xcframework */,
+				4C6C928D26EEE9AD00A596BC /* openssl.xcframework */,
+				4C6C929426EEE9AD00A596BC /* uv.xcframework */,
+				4C6C928A26EEE9AD00A596BC /* uvwasi.xcframework */,
+				4C6C928C26EEE9AD00A596BC /* v8_base_without_compiler.xcframework */,
+				4C6C929226EEE9AD00A596BC /* v8_compiler.xcframework */,
+				4C6C928926EEE9AD00A596BC /* v8_initializers.xcframework */,
+				4C6C929526EEE9AD00A596BC /* v8_libbase.xcframework */,
+				4C6C928726EEE9AD00A596BC /* v8_libplatform.xcframework */,
+				4C6C928526EEE9AD00A596BC /* v8_libsampler.xcframework */,
+				4C6C928826EEE9AD00A596BC /* v8_snapshot.xcframework */,
+				4C6C928F26EEE9AD00A596BC /* zlib.xcframework */,
 				33300EC0240437AB0019E302 /* libv8_compiler.a */,
 				33300EC1240437AB0019E302 /* libv8_snapshot.a */,
 				33300EAF240437620019E302 /* libbrotli.a */,
@@ -362,7 +398,11 @@
 				INFOPLIST_FILE = NodeMobile/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/bin",
@@ -400,7 +440,11 @@
 				INFOPLIST_FILE = NodeMobile/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/bin",

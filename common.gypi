@@ -574,7 +574,7 @@
           ['target_arch=="x64"', {
             'xcode_settings': {'ARCHS': ['x86_64']},
           }],
-          [ 'target_arch in "arm64 arm armv7s"', {
+          [ 'simulator!="true" and target_arch in "arm64 arm armv7s"', {
             'xcode_settings': {
               'OTHER_CFLAGS': [
                 '-fembed-bitcode'
@@ -600,7 +600,7 @@
               'CLANG_CXX_LIBRARY': 'libc++',
             },
           }],
-          ['target_arch=="x64" or target_arch=="ia32"', {
+          ['target_arch=="x64" or target_arch=="ia32" or target_arch=="arm64" and simulator=="true"', {
             'xcode_settings': { 'SDKROOT': 'iphonesimulator' },
           }, {
             'xcode_settings': { 'SDKROOT': 'iphoneos', 'ENABLE_BITCODE': 'YES' },
