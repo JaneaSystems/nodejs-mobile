@@ -1,3 +1,9 @@
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+
+:warning: The project is no longer being actively maintained by Janea Systems.  
+Forks of the repos have been created on a dedicated Github org to allow community-driven development to continue:  
+https://github.com/nodejs-mobile
+
 Node.js for Mobile Apps
 ====================================
 
