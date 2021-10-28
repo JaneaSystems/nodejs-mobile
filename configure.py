@@ -671,6 +671,11 @@ parser.add_option('-C',
     dest='compile_commands_json',
     help=optparse.SUPPRESS_HELP)
 
+parser.add_option('--ios-simulator',
+    action='store_true',
+    dest='ios_simulator',
+    help=optparse.SUPPRESS_HELP)
+
 (options, args) = parser.parse_args()
 
 # Expand ~ in the install prefix now, it gets written to multiple files.
@@ -1034,6 +1039,7 @@ def gcc_version_ge(version_checked):
 def configure_node(o):
   if options.dest_os == 'ios':
     o['variables']['OS'] = 'ios'
+    o['variables']['simulator'] = b(options.ios_simulator)
   if options.dest_os == 'android':
     o['variables']['OS'] = 'android'
   o['variables']['node_prefix'] = options.prefix
